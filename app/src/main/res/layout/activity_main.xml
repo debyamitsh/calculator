@@ -11,7 +11,7 @@
         android:id="@+id/start_expression"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:layout_gravity="end"
+        android:gravity="right"
         android:ellipsize="start"
         android:singleLine="true"
         android:textSize="40sp" />
@@ -21,7 +21,7 @@
         android:id="@+id/end_resultat"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:layout_gravity="end"
+        android:gravity="right"
         android:ellipsize="end"
         android:singleLine="true"
         android:textSize="30sp"/>
@@ -45,7 +45,9 @@
                 android:layout_weight="1"
                 android:textSize="21sp"
                 android:gravity="center"
-                android:layout_margin="0.5dp"/>
+                android:layout_margin="0.5dp"
+                android:background="@drawable/blue_bg"
+                android:textColor="@color/white"/>
 
             <TextView
                 android:id="@+id/equal_button"
@@ -55,7 +57,9 @@
                 android:layout_weight="1"
                 android:textSize="21sp"
                 android:gravity="center"
-                android:layout_margin="0.5dp"/>
+                android:layout_margin="0.5dp"
+                android:background="@drawable/blue_bg"
+                android:textColor="@color/white"/>
 
 
         </TableRow>
@@ -73,7 +77,9 @@
                 android:layout_weight="1"
                 android:textSize="21sp"
                 android:gravity="center"
-                android:layout_margin="0.5dp"/>
+                android:layout_margin="0.5dp"
+                android:background="@drawable/orange_bg"
+                android:textColor="@color/white"/>
             <TextView
                 android:id="@+id/two_button"
                 android:text="@string/_2"
@@ -82,16 +88,20 @@
                 android:layout_weight="1"
                 android:textSize="21sp"
                 android:gravity="center"
-                android:layout_margin="0.5dp"/>
+                android:layout_margin="0.5dp"
+                android:background="@drawable/orange_bg"
+                android:textColor="@color/white"/>
             <TextView
-                android:id="@+id/tree_button"
+                android:id="@+id/three_button"
                 android:text="@string/_3"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:textSize="21sp"
                 android:gravity="center"
-                android:layout_margin="0.5dp"/>
+                android:layout_margin="0.5dp"
+                android:background="@drawable/orange_bg"
+                android:textColor="@color/white"/>
             <TextView
                 android:id="@+id/div_button"
                 android:text="@string/div_label"
@@ -100,7 +110,9 @@
                 android:layout_weight="1"
                 android:textSize="21sp"
                 android:gravity="center"
-                android:layout_margin="0.5dp"/>
+                android:layout_margin="0.5dp"
+                android:background="@drawable/green_bg"
+                android:textColor="@color/white"/>
 
         </TableRow>
         <TableRow
@@ -117,7 +129,9 @@
                 android:layout_weight="1"
                 android:textSize="21sp"
                 android:gravity="center"
-                android:layout_margin="0.5dp"/>
+                android:layout_margin="0.5dp"
+                android:background="@drawable/orange_bg"
+                android:textColor="@color/white"/>
             <TextView
                 android:id="@+id/five_button"
                 android:text="@string/_5"
@@ -126,7 +140,9 @@
                 android:layout_weight="1"
                 android:textSize="21sp"
                 android:gravity="center"
-                android:layout_margin="0.5dp"/>
+                android:layout_margin="0.5dp"
+                android:background="@drawable/orange_bg"
+                android:textColor="@color/white"/>
             <TextView
                 android:id="@+id/six_button"
                 android:text="@string/_6"
@@ -135,7 +151,9 @@
                 android:layout_weight="1"
                 android:textSize="21sp"
                 android:gravity="center"
-                android:layout_margin="0.5dp"/>
+                android:layout_margin="0.5dp"
+                android:background="@drawable/orange_bg"
+                android:textColor="@color/white"/>
             <TextView
                 android:id="@+id/sous_button"
                 android:text="-"
@@ -144,7 +162,9 @@
                 android:layout_weight="1"
                 android:textSize="21sp"
                 android:gravity="center"
-                android:layout_margin="0.5dp"/>
+                android:layout_margin="0.5dp"
+                android:background="@drawable/green_bg"
+                android:textColor="@color/white"/>
 
         </TableRow>
         <TableRow
@@ -160,16 +180,20 @@
                 android:layout_weight="1"
                 android:textSize="21sp"
                 android:gravity="center"
-                android:layout_margin="0.5dp"/>
+                android:layout_margin="0.5dp"
+                android:background="@drawable/orange_bg"
+                android:textColor="@color/white"/>
             <TextView
-                android:id="@+id/height_button"
+                android:id="@+id/eight_button"
                 android:text="@string/_8"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:textSize="21sp"
                 android:gravity="center"
-                android:layout_margin="0.5dp"/>
+                android:layout_margin="0.5dp"
+                android:background="@drawable/orange_bg"
+                android:textColor="@color/white"/>
             <TextView
                 android:id="@+id/nine_button"
                 android:text="@string/_9"
@@ -178,7 +202,9 @@
                 android:layout_weight="1"
                 android:textSize="21sp"
                 android:gravity="center"
-                android:layout_margin="0.5dp"/>
+                android:layout_margin="0.5dp"
+                android:background="@drawable/orange_bg"
+                android:textColor="@color/white"/>
             <TextView
                 android:id="@+id/multiply_button"
                 android:text="@string/multiply_label"
@@ -187,7 +213,9 @@
                 android:layout_weight="1"
                 android:textSize="21sp"
                 android:gravity="center"
-                android:layout_margin="0.5dp"/>
+                android:layout_margin="0.5dp"
+                android:background="@drawable/green_bg"
+                android:textColor="@color/white"/>
         </TableRow>
         <TableRow
             android:layout_width="match_parent"
@@ -202,7 +230,9 @@
                 android:layout_weight="1"
                 android:textSize="21sp"
                 android:gravity="center"
-                android:layout_margin="0.5dp"/>
+                android:layout_margin="0.5dp"
+                android:background="@drawable/orange_bg"
+                android:textColor="@color/white"/>
             <TextView
                 android:id="@+id/zero_button"
                 android:text="@string/_0"
@@ -211,7 +241,9 @@
                 android:layout_weight="1"
                 android:textSize="21sp"
                 android:gravity="center"
-                android:layout_margin="0.5dp"/>
+                android:layout_margin="0.5dp"
+                android:background="@drawable/orange_bg"
+                android:textColor="@color/white"/>
             <TextView
                 android:id="@+id/modulo_button"
                 android:text="@string/modulo_label"
@@ -220,7 +252,9 @@
                 android:layout_weight="1"
                 android:textSize="21sp"
                 android:gravity="center"
-                android:layout_margin="0.5dp"/>
+                android:layout_margin="0.5dp"
+                android:background="@drawable/green_bg"
+                android:textColor="@color/white"/>
             <TextView
                 android:id="@+id/add_button"
                 android:text="@string/plus_label"
@@ -229,7 +263,9 @@
                 android:layout_weight="1"
                 android:textSize="21sp"
                 android:gravity="center"
-                android:layout_margin="0.5dp"/>
+                android:layout_margin="0.5dp"
+                android:background="@drawable/green_bg"
+                android:textColor="@color/white"/>
         </TableRow>
 
 
